@@ -11,7 +11,7 @@
     "ideSettings": "https://gitmanager.cs.aalto.fi/static/O1_2023/modules/o1_2023_ij_settings.zip",
     "ideSettingsMac": "https://gitmanager.cs.aalto.fi/static/O1_2023/modules/o1_2023_ij_mac_settings.zip",
     "projectSettings": "https://gitmanager.cs.aalto.fi/static/O1_2023/modules/o1_2023_project_settings.zip",
-    "feedbackCss": "https://gitmanager.cs.aalto.fi/static/O1_2023/modules/feedback.css"
+    "feedbackCss": "https://raw.githubusercontent.com/jaakkonakaza/temp/main/o1feedback.css"
   },
   "vmOptions": {
     "file.encoding": "UTF-8"
@@ -220,7 +220,7 @@
         "import o1.*"
       ]
     },
-    "arguments": "-new-syntax -feature -deprecation -explain-types"
+    "arguments": "-new-syntax -feature -deprecation"
   },
   "modules": [
     {
