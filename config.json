@@ -287,14 +287,14 @@
     {
       "name": "FlappyBug",
       "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/FlappyBug/FlappyBug.zip",
-      "version": "1.0",
-      "changelog": ""
+      "version": "2.0",
+      "changelog": "Added bugs"
     },
     {
       "name": "Football1",
       "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Football1/Football1.zip",
-      "version": "1.0",
-      "changelog": ""
+      "version": "1.1",
+      "changelog": "Fixed setting user's computer on fire"
     },
     {
       "name": "Football2",
