@@ -13,6 +13,10 @@
     "projectSettings": "https://gitmanager.cs.aalto.fi/static/O1_2023/modules/o1_2023_project_settings.zip",
     "feedbackCss": "https://raw.githubusercontent.com/jaakkonakaza/temp/main/o1feedback.css"
   },
+  "requiredPlugins": [
+    {"name": "Scala", "id": "org.intellij.scala"},
+    {"name": "Additional Scala Inspections", "id": "fi.aalto.cs.inspections"}
+  ],
   "vmOptions": {
     "file.encoding": "UTF-8"
   },
