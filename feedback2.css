@@ -12,12 +12,12 @@ body {
 }
 
 .dark .panel-heading {
-  background-color: #000a !important;
+  background-color: #0004 !important;
   border-color: #000 !important;
 }
 
 .dark .panel-body {
-  background-color: #0008;
+  background-color: #0002;
 }
 
 .dark .btn {
