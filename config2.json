@@ -7,7 +7,8 @@
   ],
   "version": "4.0",
   "resources": {
-    "ideSettings": "https://gitmanager.cs.aalto.fi/static/CS-A1143_2023Autumn/_static/apluscourses/ide_settings.zip"
+    "ideSettings": "https://gitmanager.cs.aalto.fi/static/CS-A1143_2023Autumn/_static/apluscourses/ide_settings.zip",
+    "feedbackCss": "https://raw.githubusercontent.com/jaakkonakaza/temp/main/feedback2.css"
   },
   "requiredPlugins": [
     {
