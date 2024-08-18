@@ -7,8 +7,7 @@
   ],
   "version": "4.0",
   "resources": {
-    "ideSettings": "https://gitmanager.cs.aalto.fi/static/CS-A1143_2023Autumn/_static/apluscourses/ide_settings.zip",
-    "feedbackCss": "https://raw.githubusercontent.com/jaakkonakaza/temp/main/feedback2.css"
+    "ideSettings": "https://gitmanager.cs.aalto.fi/static/CS-A1143_2023Autumn/_static/apluscourses/ide_settings.zip"
   },
   "requiredPlugins": [
     {
@@ -246,6 +245,26 @@
     },
     "62": {
       "en": "kruskal"
+    }
+  },
+  "grading": {
+    "style": "total",
+    "points": {
+      "1": {
+        "total": 12000
+      },
+      "2": {
+        "total": 15000
+      },
+      "3": {
+        "total": 18000
+      },
+      "4": {
+        "total": 21000
+      },
+      "5": {
+        "total": 24000
+      }
     }
   }
 }
