@@ -14,8 +14,14 @@
     "feedbackCss": "https://raw.githubusercontent.com/jaakkonakaza/temp/main/o1feedback.css"
   },
   "requiredPlugins": [
-    {"name": "Scala", "id": "org.intellij.scala"},
-    {"name": "Additional Scala Inspections", "id": "fi.aalto.cs.inspections"}
+    {
+      "name": "Scala",
+      "id": "org.intellij.scala"
+    },
+    {
+      "name": "Additional Scala Inspections",
+      "id": "fi.aalto.cs.inspections"
+    }
   ],
   "vmOptions": {
     "file.encoding": "UTF-8"
@@ -1159,5 +1165,35 @@
     53057,
     52808,
     53056
-  ]
+  ],
+  "grading": {
+    "style": "o1",
+    "points": {
+      "1": {
+        "A": 2000,
+        "B": 0,
+        "C": 0
+      },
+      "2": {
+        "A": 2100,
+        "B": 450,
+        "C": 0
+      },
+      "3": {
+        "A": 2100,
+        "B": 800,
+        "C": 0
+      },
+      "4": {
+        "A": 2100,
+        "B": 800,
+        "C": 450
+      },
+      "5": {
+        "A": 2100,
+        "B": 800,
+        "C": 625
+      }
+    }
+  }
 }
