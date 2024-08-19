@@ -154,97 +154,97 @@
     }
   ],
   "exerciseModules": {
-    "224": {
+    "51": {
       "en": "eratosthenes"
     },
-    "226": {
+    "53": {
       "en": "car"
     },
-    "29": {
+    "179": {
       "en": "linkedlist"
     },
-    "31": {
+    "181": {
       "en": "stack"
     },
-    "32": {
+    "182": {
       "en": "Myqueue"
     },
-    "38": {
+    "188": {
       "en": "reverseobjects"
     },
-    "39": {
+    "189": {
       "en": "checkparentheses"
     },
-    "124": {
+    "76": {
       "en": "power"
     },
-    "125": {
+    "77": {
       "en": "queue_reverse"
     },
-    "126": {
+    "78": {
       "en": "circles_and_squares"
     },
-    "181": {
+    "95": {
       "en": "sorting_empirical_analysis"
     },
-    "193": {
+    "107": {
       "en": "my_sort"
     },
-    "140": {
+    "225": {
       "en": "trees"
     },
-    "141": {
+    "226": {
       "en": "trees"
     },
-    "142": {
+    "227": {
       "en": "trees"
     },
-    "238": {
+    "65": {
       "en": "maxheap"
     },
-    "113": {
+    "239": {
       "en": "trees"
     },
-    "207": {
+    "17": {
       "en": "trees"
     },
-    "12": {
+    "204": {
       "en": "plantshop"
     },
-    "13": {
+    "205": {
       "en": "plantshop"
     },
-    "50": {
+    "28": {
       "en": "toposort"
     },
-    "76": {
+    "122": {
       "en": "primes_revised"
     },
-    "78": {
+    "124": {
       "en": "seal"
     },
-    "80": {
+    "126": {
       "en": "fractal"
     },
-    "82": {
+    "128": {
       "en": "hunt"
     },
-    "84": {
+    "130": {
       "en": "docent"
     },
-    "86": {
+    "132": {
       "en": "legos"
     },
-    "91": {
+    "137": {
       "en": "trees"
     },
-    "93": {
+    "139": {
       "en": "network"
     },
-    "59": {
+    "210": {
       "en": "union_find"
     },
-    "62": {
+    "213": {
       "en": "kruskal"
     }
   },
