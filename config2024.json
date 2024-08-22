@@ -1,0 +1,1209 @@
+{
+  "id": "342",
+  "name": "O1",
+  "aPlusUrl": "https://plus.cs.aalto.fi/",
+  "languages": [
+    "fi",
+    "en"
+  ],
+  "version": "4.0",
+  "resources": {
+    "ideSettings": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/o1_2024_ij_settings.zip",
+    "ideSettingsMac": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/o1_2024_ij_mac_settings.zip",
+    "projectSettings": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/o1_2024_project_settings.zip",
+    "feedbackCss": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/feedback.css"
+  },
+  "requiredPlugins": [
+    {
+      "name": "Scala",
+      "id": "org.intellij.scala"
+    },
+    {
+      "name": "Additional Scala Inspections",
+      "id": "fi.aalto.cs.inspections"
+    }
+  ],
+  "vmOptions": {
+    "file.encoding": "UTF-8"
+  },
+  "optionalCategories": [
+    "training",
+    "challenge"
+  ],
+  "autoInstall": [
+    "O1Library"
+  ],
+  "scalaRepl": {
+    "initialCommands": {
+      "Adventure": [
+        "import o1.adventure.*"
+      ],
+      "AdventureDraft": [
+        "import o1.adventure.draft.*"
+      ],
+      "Aliohjelmia": [
+        "import o1.*",
+        "import o1.aliohjelmia.*"
+      ],
+      "AuctionHouse1": [
+        "import o1.*",
+        "import o1.auctionhouse.*"
+      ],
+      "AuctionHouse2": [
+        "import o1.*",
+        "import o1.auctionhouse.*"
+      ],
+      "Blood": [
+        "import o1.*"
+      ],
+      "CarSim": [
+        "import o1.*",
+        "import o1.carsim.*"
+      ],
+      "CitySim": [
+        "import o1.*",
+        "import o1.city.*"
+      ],
+      "Election": [
+        "import o1.*",
+        "import o1.election.*"
+      ],
+      "Files": [
+        "import o1.*"
+      ],
+      "FlappyBug": [
+        "import o1.*",
+        "import o1.flappy.*"
+      ],
+      "Football1": [
+        "import o1.*",
+        "import o1.football1.*"
+      ],
+      "Football2": [
+        "import o1.*",
+        "import o1.football2.*"
+      ],
+      "Football3": [
+        "import o1.*",
+        "import o1.football3.*"
+      ],
+      "Football4": [
+        "import o1.*",
+        "import o1.football4.*"
+      ],
+      "ForLoops": [
+        "import o1.*"
+      ],
+      "GoodStuff": [
+        "import o1.*",
+        "import o1.goodstuff.*",
+        "import o1.goodstuff.gui.*"
+      ],
+      "HigherOrder": [
+        "import o1.*",
+        "import o1.rainfall.*"
+      ],
+      "IntroApps": [
+        "import o1.*",
+        "import o1.art.*",
+        "import o1.block.*",
+        "import o1.burr.*",
+        "import o1.counter.*",
+        "import o1.grouse.*",
+        "import o1.space.*"
+      ],
+      "IntroOOP": [
+        "import o1.*",
+        "import o1.classes.*",
+        "import o1.singletons.*"
+      ],
+      "Miscellaneous": [
+        "import o1.*",
+        "import o1.excursion.*",
+        "import o1.inputs.*",
+        "import o1.misc.*",
+        "import o1.people.*",
+        "import o1.soda.*",
+        "import o1.time.*"
+      ],
+      "MoreApps": [
+        "import o1.*",
+        "import o1.charger.*",
+        "import o1.trotter.*",
+        "import o1.glider.*"
+      ],
+      "MovieStats": [
+        "import o1.*",
+        "import o1.movies.*"
+      ],
+      "O1Library": [
+        "import o1.*"
+      ],
+      "Odds": [
+        "import o1.*",
+        "import o1.odds.*"
+      ],
+      "Oliointro": [
+        "import o1.*",
+        "import o1.luokkia.*",
+        "import o1.yksittaisia.*"
+      ],
+      "Peeveli": [
+        "import o1.*",
+        "import o1.peeveli.*"
+      ],
+      "Pikkusovelluksia": [
+        "import o1.*",
+        "import o1.avaruus.*",
+        "import o1.laskuri.*",
+        "import o1.palikka.*",
+        "import o1.pyy.*",
+        "import o1.taide.*",
+        "import o1.takiainen.*"
+      ],
+      "Pong": [
+        "import o1.*",
+        "import o1.pong.*"
+      ],
+      "Recursion": [
+        "import o1.*",
+        "import o1.family.*",
+        "import o1.money.*",
+        "import o1.recursion.*"
+      ],
+      "Robots": [
+        "import o1.*",
+        "import o1.robots.*"
+      ],
+      "RobotTribes": [
+        "import o1.*",
+        "import o1.robots.*",
+        "import o1.robots.tribal.*"
+      ],
+      "Sananmuunnos": [
+        "import o1.*",
+        "import o1.sananmuunnos.*"
+      ],
+      "Sentiments": [
+        "import o1.*",
+        "import o1.sentiment.*"
+      ],
+      "Snake": [
+        "import o1.*",
+        "import o1.snake.*"
+      ],
+      "Stars": [
+        "import o1.*",
+        "import o1.stars.*",
+        "import o1.stars.files.*",
+        "import o1.stars.gui.*"
+      ],
+      "Subprograms": [
+        "import o1.*",
+        "import o1.subprograms.*"
+      ],
+      "SwingExamples": [
+        "import o1.*",
+        "import o1.llama.*",
+        "import o1.randomtext.*"
+      ],
+      "Train": [
+        "import o1.*",
+        "import o1.train.*"
+      ],
+      "Traits": [
+        "import o1.*",
+        "import o1.cruising.*",
+        "import o1.gender.*",
+        "import o1.items.*",
+        "import o1.legal.*",
+        "import o1.medical.*",
+        "import o1.messages.*",
+        "import o1.service.*",
+        "import o1.shapes.*"
+      ],
+      "Viinaharava": [
+        "import o1.*",
+        "import o1.viinaharava.*"
+      ],
+      "WhileLoops": [
+        "import o1.*"
+      ]
+    },
+    "arguments": "-new-syntax -feature -deprecation"
+  },
+  "modules": [
+    {
+      "name": "Adventure",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Adventure/Adventure.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "AdventureDraft",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/AdventureDraft/AdventureDraft.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Aliohjelmia",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Aliohjelmia/Aliohjelmia.zip",
+      "language": "fi",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "AuctionHouse1",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/AuctionHouse1/AuctionHouse1.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "AuctionHouse2",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/AuctionHouse2/AuctionHouse2.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Blood",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Blood/Blood.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "CarSim",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/CarSim/CarSim.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "CitySim",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/CitySim/CitySim.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Election",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Election/Election.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Files",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Files/Files.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "FlappyBug",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/FlappyBug/FlappyBug.zip",
+      "version": "2.0",
+      "changelog": "Added bugs"
+    },
+    {
+      "name": "Football1",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Football1/Football1.zip",
+      "version": "1.1",
+      "changelog": "Fixed setting user's computer on fire"
+    },
+    {
+      "name": "Football2",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Football2/Football2.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Football3",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Football3/Football3.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Football4",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Football4/Football4.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "ForLoops",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/ForLoops/ForLoops.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "GoodStuff",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/GoodStuff/GoodStuff.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "HigherOrder",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/HigherOrder/HigherOrder.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "IntroApps",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/IntroApps/IntroApps.zip",
+      "language": "en",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "IntroOOP",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/IntroOOP/IntroOOP.zip",
+      "language": "en",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Miscellaneous",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Miscellaneous/Miscellaneous.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "MoreApps",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/MoreApps/MoreApps.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "MovieStats",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/MovieStats/MovieStats.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "O1Library",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/O1Library/O1Library.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Odds",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Odds/Odds.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Oliointro",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Oliointro/Oliointro.zip",
+      "language": "fi",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Peeveli",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Peeveli/Peeveli.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Pikkusovelluksia",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Pikkusovelluksia/Pikkusovelluksia.zip",
+      "language": "fi",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Pong",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Pong/Pong.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Recursion",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Recursion/Recursion.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Robots",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Robots/Robots.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "RobotTribes",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/RobotTribes/RobotTribes.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Sananmuunnos",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Sananmuunnos/Sananmuunnos.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Sentiments",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Sentiments/Sentiments.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Snake",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Snake/Snake.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Stars",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Stars/Stars.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Subprograms",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Subprograms/Subprograms.zip",
+      "language": "en",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "SwingExamples",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/SwingExamples/SwingExamples.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Train",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Train/Train.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Traits",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Traits/Traits.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Viinaharava",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/Viinaharava/Viinaharava.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "WhileLoops",
+      "url": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/given/WhileLoops/WhileLoops.zip",
+      "version": "1.0",
+      "changelog": ""
+    }
+  ],
+  "exerciseModules": {
+    "57977": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "58090": {
+      "en": "IntroOOP",
+      "fi": "Oliointro"
+    },
+    "58129": {
+      "en": "Ave",
+      "fi": "Ave"
+    },
+    "58130": {
+      "en": "Ave",
+      "fi": "Ave"
+    },
+    "58133": {
+      "en": "IntroApps",
+      "fi": "Pikkusovelluksia"
+    },
+    "58098": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "57808": {
+      "en": "IntroApps",
+      "fi": "Pikkusovelluksia"
+    },
+    "57809": {
+      "en": "IntroApps",
+      "fi": "Pikkusovelluksia"
+    },
+    "57810": {
+      "en": "IntroApps",
+      "fi": "Pikkusovelluksia"
+    },
+    "57811": {
+      "en": "IntroApps",
+      "fi": "Pikkusovelluksia"
+    },
+    "57976": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "58117": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "57990": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "58119": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "57974": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "58121": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "57994": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "58100": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "58126": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "58127": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "58134": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "58135": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "57802": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "57804": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "57805": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "57806": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "57807": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "58120": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "57944": {
+      "en": "GoodStuff",
+      "fi": "GoodStuff"
+    },
+    "57991": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "57992": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "57973": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "57985": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "58109": {
+      "en": "Odds",
+      "fi": "Odds"
+    },
+    "58112": {
+      "en": "Odds",
+      "fi": "Odds"
+    },
+    "58114": {
+      "en": "Odds",
+      "fi": "Odds"
+    },
+    "58116": {
+      "en": "Odds",
+      "fi": "Odds"
+    },
+    "58131": {
+      "en": "Odds",
+      "fi": "Odds"
+    },
+    "57812": {
+      "en": "IntroApps",
+      "fi": "Pikkusovelluksia"
+    },
+    "57813": {
+      "en": "IntroApps",
+      "fi": "Pikkusovelluksia"
+    },
+    "57814": {
+      "en": "IntroApps",
+      "fi": "Pikkusovelluksia"
+    },
+    "57995": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "57945": {
+      "en": "Pong",
+      "fi": "Pong"
+    },
+    "58103": {
+      "en": "IntroOOP",
+      "fi": "Oliointro"
+    },
+    "58106": {
+      "en": "IntroOOP",
+      "fi": "Oliointro"
+    },
+    "58107": {
+      "en": "IntroOOP",
+      "fi": "Oliointro"
+    },
+    "58132": {
+      "en": "Odds",
+      "fi": "Odds"
+    },
+    "58099": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "57803": {
+      "en": "IntroApps",
+      "fi": "Pikkusovelluksia"
+    },
+    "58123": {
+      "en": "IntroOOP",
+      "fi": "Oliointro"
+    },
+    "57993": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "57978": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "57979": {
+      "en": "Subprograms",
+      "fi": "Aliohjelmia"
+    },
+    "57818": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "57827": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "57825": {
+      "en": "IntroOOP",
+      "fi": "Oliointro"
+    },
+    "57823": {
+      "en": "Miscellaneous",
+      "fi": "Miscellaneous"
+    },
+    "57826": {
+      "en": "Odds",
+      "fi": "Odds"
+    },
+    "57831": {
+      "en": "Odds",
+      "fi": "Odds"
+    },
+    "57838": {
+      "en": "Odds",
+      "fi": "Odds"
+    },
+    "57850": {
+      "en": "Odds",
+      "fi": "Odds"
+    },
+    "57834": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "57847": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "57849": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "57830": {
+      "en": "Miscellaneous",
+      "fi": "Miscellaneous"
+    },
+    "57836": {
+      "en": "Miscellaneous",
+      "fi": "Miscellaneous"
+    },
+    "57832": {
+      "en": "IntroApps",
+      "fi": "Pikkusovelluksia"
+    },
+    "57844": {
+      "en": "Football1",
+      "fi": "Football1"
+    },
+    "57851": {
+      "en": "MoreApps",
+      "fi": "MoreApps"
+    },
+    "57852": {
+      "en": "MoreApps",
+      "fi": "MoreApps"
+    },
+    "57853": {
+      "en": "MoreApps",
+      "fi": "MoreApps"
+    },
+    "57854": {
+      "en": "MoreApps",
+      "fi": "MoreApps"
+    },
+    "58025": {
+      "en": "CarSim",
+      "fi": "CarSim"
+    },
+    "58029": {
+      "en": "Miscellaneous",
+      "fi": "Miscellaneous"
+    },
+    "58034": {
+      "en": "Football2",
+      "fi": "Football2"
+    },
+    "58042": {
+      "en": "Miscellaneous",
+      "fi": "Miscellaneous"
+    },
+    "58043": {
+      "en": "Miscellaneous",
+      "fi": "Miscellaneous"
+    },
+    "58044": {
+      "en": "Miscellaneous",
+      "fi": "Miscellaneous"
+    },
+    "58045": {
+      "en": "IntroOOP",
+      "fi": "Oliointro"
+    },
+    "58046": {
+      "en": "MoreApps",
+      "fi": "MoreApps"
+    },
+    "58047": {
+      "en": "Stars",
+      "fi": "Stars"
+    },
+    "58048": {
+      "en": "Stars",
+      "fi": "Stars"
+    },
+    "58049": {
+      "en": "Football3",
+      "fi": "Football3"
+    },
+    "58050": {
+      "en": "Football3",
+      "fi": "Football3"
+    },
+    "57893": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "57894": {
+      "en": "Blood",
+      "fi": "Blood"
+    },
+    "57895": {
+      "en": "AuctionHouse1",
+      "fi": "AuctionHouse1"
+    },
+    "57896": {
+      "en": "Miscellaneous",
+      "fi": "Miscellaneous"
+    },
+    "57897": {
+      "en": "AuctionHouse1",
+      "fi": "AuctionHouse1"
+    },
+    "57898": {
+      "en": "AuctionHouse1",
+      "fi": "AuctionHouse1"
+    },
+    "57907": {
+      "en": "Miscellaneous",
+      "fi": "Miscellaneous"
+    },
+    "57908": {
+      "en": "Miscellaneous",
+      "fi": "Miscellaneous"
+    },
+    "57909": {
+      "en": "Stars",
+      "fi": "Stars"
+    },
+    "57903": {
+      "en": "Miscellaneous",
+      "fi": "Miscellaneous"
+    },
+    "57920": {
+      "en": "ForLoops",
+      "fi": "ForLoops"
+    },
+    "57923": {
+      "en": "ForLoops",
+      "fi": "ForLoops"
+    },
+    "57924": {
+      "en": "ForLoops",
+      "fi": "ForLoops"
+    },
+    "57925": {
+      "en": "ForLoops",
+      "fi": "ForLoops"
+    },
+    "57926": {
+      "en": "ForLoops",
+      "fi": "ForLoops"
+    },
+    "57927": {
+      "en": "ForLoops",
+      "fi": "ForLoops"
+    },
+    "57932": {
+      "en": "ForLoops",
+      "fi": "ForLoops"
+    },
+    "57928": {
+      "en": "Election",
+      "fi": "Election"
+    },
+    "57930": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "58142": {
+      "en": "HigherOrder",
+      "fi": "HigherOrder"
+    },
+    "58143": {
+      "en": "HigherOrder",
+      "fi": "HigherOrder"
+    },
+    "58144": {
+      "en": "HigherOrder",
+      "fi": "HigherOrder"
+    },
+    "58145": {
+      "en": "HigherOrder",
+      "fi": "HigherOrder"
+    },
+    "58146": {
+      "en": "HigherOrder",
+      "fi": "HigherOrder"
+    },
+    "58149": {
+      "en": "HigherOrder",
+      "fi": "HigherOrder"
+    },
+    "58150": {
+      "en": "HigherOrder",
+      "fi": "HigherOrder"
+    },
+    "58151": {
+      "en": "HigherOrder",
+      "fi": "HigherOrder"
+    },
+    "58152": {
+      "en": "HigherOrder",
+      "fi": "HigherOrder"
+    },
+    "57748": {
+      "en": "HigherOrder",
+      "fi": "HigherOrder"
+    },
+    "58169": {
+      "en": "Election",
+      "fi": "Election"
+    },
+    "58175": {
+      "en": "Snake",
+      "fi": "Snake"
+    },
+    "57740": {
+      "en": "Election",
+      "fi": "Election"
+    },
+    "57741": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "57743": {
+      "en": "HigherOrder",
+      "fi": "HigherOrder"
+    },
+    "57744": {
+      "en": "HigherOrder",
+      "fi": "HigherOrder"
+    },
+    "57745": {
+      "en": "HigherOrder",
+      "fi": "HigherOrder"
+    },
+    "57756": {
+      "en": "Sentiments",
+      "fi": "Sentiments"
+    },
+    "57757": {
+      "en": "HigherOrder",
+      "fi": "HigherOrder"
+    },
+    "57758": {
+      "en": "HigherOrder",
+      "fi": "HigherOrder"
+    },
+    "57763": {
+      "en": "Traits",
+      "fi": "Traits"
+    },
+    "57767": {
+      "en": "Traits",
+      "fi": "Traits"
+    },
+    "62735": {
+      "en": "FlappyBug",
+      "fi": "FlappyBug"
+    },
+    "57774": {
+      "en": "Traits",
+      "fi": "Traits"
+    },
+    "62128": {
+      "en": "Blood",
+      "fi": "Blood"
+    },
+    "62734": {
+      "en": "Blood",
+      "fi": "Blood"
+    },
+    "62736": {
+      "en": "Traits",
+      "fi": "Traits"
+    },
+    "57769": {
+      "en": "Traits",
+      "fi": "Traits"
+    },
+    "57770": {
+      "en": "Traits",
+      "fi": "Traits"
+    },
+    "62127": {
+      "en": "AuctionHouse2",
+      "fi": "AuctionHouse2"
+    },
+    "58005": {
+      "en": "Viinaharava",
+      "fi": "Viinaharava"
+    },
+    "58016": {
+      "en": "CitySim",
+      "fi": "CitySim"
+    },
+    "63826": {
+      "en": "Robots",
+      "fi": "Robots"
+    },
+    "63830": {
+      "en": "Robots",
+      "fi": "Robots"
+    },
+    "63827": {
+      "en": "Robots",
+      "fi": "Robots"
+    },
+    "57866": {
+      "en": "Robots",
+      "fi": "Robots"
+    },
+    "57867": {
+      "en": "Robots",
+      "fi": "Robots"
+    },
+    "57868": {
+      "en": "Robots",
+      "fi": "Robots"
+    },
+    "57869": {
+      "en": "Robots",
+      "fi": "Robots"
+    },
+    "57871": {
+      "en": "Miscellaneous",
+      "fi": "Miscellaneous"
+    },
+    "57873": {
+      "en": "Miscellaneous",
+      "fi": "Miscellaneous"
+    },
+    "57874": {
+      "en": "Miscellaneous",
+      "fi": "Miscellaneous"
+    },
+    "57877": {
+      "en": "Miscellaneous",
+      "fi": "Miscellaneous"
+    },
+    "57880": {
+      "en": "Adventure",
+      "fi": "Adventure"
+    },
+    "58182": {
+      "en": "Stars",
+      "fi": "Stars"
+    },
+    "58183": {
+      "en": "CitySim",
+      "fi": "CitySim"
+    },
+    "58185": {
+      "en": "Election",
+      "fi": "Election"
+    },
+    "58186": {
+      "en": "Election",
+      "fi": "Election"
+    },
+    "58188": {
+      "en": "Peeveli",
+      "fi": "Peeveli"
+    },
+    "58189": {
+      "en": "Sananmuunnos",
+      "fi": "Sananmuunnos"
+    },
+    "57863": {
+      "en": "WhileLoops",
+      "fi": "WhileLoops"
+    },
+    "57864": {
+      "en": "WhileLoops",
+      "fi": "WhileLoops"
+    },
+    "57785": {
+      "en": "Football4",
+      "fi": "Football4"
+    },
+    "58060": {
+      "en": "Train",
+      "fi": "Train"
+    },
+    "58066": {
+      "en": "Viinaharava",
+      "fi": "Viinaharava"
+    },
+    "58068": {
+      "en": "Recursion",
+      "fi": "Recursion"
+    },
+    "58069": {
+      "en": "Recursion",
+      "fi": "Recursion"
+    },
+    "58194": {
+      "en": "RobotTribes",
+      "fi": "RobotTribes"
+    },
+    "58195": {
+      "en": "RobotTribes",
+      "fi": "RobotTribes"
+    },
+    "58197": {
+      "en": "RobotTribes",
+      "fi": "RobotTribes"
+    },
+    "58072": {
+      "en": "RobotTribes",
+      "fi": "RobotTribes"
+    },
+    "57788": {
+      "en": "Files",
+      "fi": "Files"
+    },
+    "58074": {
+      "en": "SwingExamples",
+      "fi": "SwingExamples"
+    }
+  },
+  "hiddenElements": [
+    58012,
+    3871,
+    57720,
+    57721,
+    57722,
+    57723,
+    57724,
+    57725,
+    57726,
+    57727,
+    57728,
+    57729,
+    57730,
+    57731,
+    57718,
+    57719
+  ],
+  "grading": {
+    "style": "o1",
+    "points": {
+      "1": {
+        "A": 2000,
+        "B": 0,
+        "C": 0
+      },
+      "2": {
+        "A": 2100,
+        "B": 450,
+        "C": 0
+      },
+      "3": {
+        "A": 2100,
+        "B": 800,
+        "C": 0
+      },
+      "4": {
+        "A": 2100,
+        "B": 800,
+        "C": 450
+      },
+      "5": {
+        "A": 2100,
+        "B": 800,
+        "C": 625
+      }
+    }
+  }
+}
