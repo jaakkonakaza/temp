@@ -33,6 +33,7 @@
   "autoInstall": [
     "O1Library"
   ],
+  "alwaysShowGroups": true,
   "scalaRepl": {
     "initialCommands": {
       "Adventure": [
