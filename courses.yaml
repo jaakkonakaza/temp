@@ -2,6 +2,10 @@
   semester: Fall 2023
   url: https://raw.githubusercontent.com/jaakkonakaza/temp/main/config.json
   language: scala
+- name: O1 2024 Test
+  semester: Fall 2024
+  url: https://raw.githubusercontent.com/jaakkonakaza/temp/main/config2024.json
+  language: scala
 - name: CS-A1143 Data Structures and Algorithms Test
   semester: Fall 2023
   url: https://raw.githubusercontent.com/jaakkonakaza/temp/main/config2.json
