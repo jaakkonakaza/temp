@@ -11,7 +11,7 @@
     "ideSettings": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/o1_2024_ij_settings.zip",
     "ideSettingsMac": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/o1_2024_ij_mac_settings.zip",
     "projectSettings": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/o1_2024_project_settings.zip",
-    "feedbackCss": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/feedback.css"
+    "feedbackCss": "https://raw.githubusercontent.com/jaakkonakaza/temp/main/o1feedback.css"
   },
   "requiredPlugins": [
     {
