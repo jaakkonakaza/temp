@@ -19,6 +19,10 @@
       "id": "org.intellij.scala"
     },
     {
+      "name": "REPLace",
+      "id": "fi.aalto.cs.replace"
+    },
+    {
       "name": "Additional Scala Inspections",
       "id": "fi.aalto.cs.inspections"
     }
