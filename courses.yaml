@@ -7,6 +7,6 @@
   url: https://gitmanager.cs.aalto.fi/static/O1_2024/modules/o1_course_config.json
   language: scala
 - name: CS-A1143 Data Structures and Algorithms Test
-  semester: Autumn 2023
+  semester: Autumn 2024
   url: https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/a1141_course_config.json
   language: python
