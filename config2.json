@@ -8,7 +8,7 @@
   ],
   "version": "4.0",
   "resources": {
-    "ideSettings": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/ide_settings.zip",
+    "ideSettings": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/ide_settings.zip",
     "feedbackCss": "https://raw.githubusercontent.com/jaakkonakaza/temp/main/feedback2.css"
   },
   "requiredPlugins": [
@@ -17,237 +17,136 @@
       "id": "PythonCore"
     }
   ],
+  "exerciseModules": {
+    "61484": {
+      "fi": "eratosthenes",
+      "en": "eratosthenes"
+    },
+    "61486": {
+      "fi": "car",
+      "en": "car"
+    },
+    "61356": {
+      "fi": "linkedlist",
+      "en": "linkedlist"
+    },
+    "61358": {
+      "fi": "stack",
+      "en": "stack"
+    },
+    "61359": {
+      "fi": "Myqueue",
+      "en": "Myqueue"
+    },
+    "61365": {
+      "fi": "reverseobjects",
+      "en": "reverseobjects"
+    },
+    "61366": {
+      "fi": "checkparentheses",
+      "en": "checkparentheses"
+    },
+    "61459": {
+      "fi": "power",
+      "en": "power"
+    },
+    "61460": {
+      "fi": "queue_reverse",
+      "en": "queue_reverse"
+    },
+    "61461": {
+      "fi": "circles_and_squares",
+      "en": "circles_and_squares"
+    },
+    "61383": {
+      "fi": "sorting_empirical_analysis",
+      "en": "sorting_empirical_analysis"
+    },
+    "61395": {
+      "fi": "my_sort",
+      "en": "my_sort"
+    },
+    "61546": {
+      "fi": "trees",
+      "en": "trees"
+    },
+    "61547": {
+      "fi": "trees",
+      "en": "trees"
+    },
+    "61548": {
+      "fi": "trees",
+      "en": "trees"
+    },
+    "61533": {
+      "fi": "maxheap",
+      "en": "maxheap"
+    },
+    "61448": {
+      "fi": "trees",
+      "en": "trees"
+    },
+    "61523": {
+      "fi": "trees",
+      "en": "trees"
+    },
+    "61344": {
+      "fi": "plantshop",
+      "en": "plantshop"
+    },
+    "61345": {
+      "fi": "plantshop",
+      "en": "plantshop"
+    },
+    "61502": {
+      "fi": "toposort",
+      "en": "toposort"
+    },
+    "61411": {
+      "fi": "primes_revised",
+      "en": "primes_revised"
+    },
+    "61413": {
+      "fi": "seal",
+      "en": "seal"
+    },
+    "61415": {
+      "fi": "fractal",
+      "en": "fractal"
+    },
+    "61417": {
+      "fi": "hunt",
+      "en": "hunt"
+    },
+    "61419": {
+      "fi": "docent",
+      "en": "docent"
+    },
+    "61421": {
+      "fi": "legos",
+      "en": "legos"
+    },
+    "61426": {
+      "fi": "trees",
+      "en": "trees"
+    },
+    "61428": {
+      "fi": "network",
+      "en": "network"
+    },
+    "63101": {
+      "fi": "union_find",
+      "en": "union_find"
+    },
+    "63105": {
+      "fi": "kruskal",
+      "en": "kruskal"
+    }
+  },
   "callbacks": {
     "postDownloadModule": [
       "AddModuleWatermark"
     ]
-  },
-  "modules": [
-    {
-      "name": "add_plus",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/add_plus.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "car",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/car.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "checkparentheses",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/checkparentheses.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "circles_and_squares",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/circles_and_squares.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "countchange",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/countchange.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "docent",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/docent.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "eratosthenes",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/eratosthenes.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "fractal",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/fractal.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "hunt",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/hunt.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "legos",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/legos.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "linkedlist",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/linkedlist.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "maxheap",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/maxheap.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "my_sort",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/my_sort.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "network",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/network.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "palindrome",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/palindrome.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "plantshop",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/plantshop.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "power",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/power.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "primes_revised",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/primes_revised.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "Myqueue",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/Myqueue.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "queue_reverse",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/queue_reverse.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "reverseobjects",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/reverseobjects.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "seal",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/seal.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "sorting_empirical_analysis",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/sorting_empirical_analysis.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "stack",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/stack.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "toposort",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/toposort.zip",
-      "version": "1.0"
-    },
-    {
-      "name": "trees",
-      "url": "https://gitmanager.cs.aalto.fi/static/CS-A1141_2024Autumn/_static/apluscourses/modules/trees.zip",
-      "version": "1.0"
-    }
-  ],
-  "exerciseModules": {
-    "61484": {
-      "fi": "eratosthenes"
-    },
-    "61486": {
-      "fi": "car"
-    },
-    "61356": {
-      "fi": "linkedlist"
-    },
-    "61358": {
-      "fi": "stack"
-    },
-    "61359": {
-      "fi": "Myqueue"
-    },
-    "61365": {
-      "fi": "reverseobjects"
-    },
-    "61366": {
-      "fi": "checkparentheses"
-    },
-    "61459": {
-      "fi": "power"
-    },
-    "61460": {
-      "fi": "queue_reverse"
-    },
-    "61461": {
-      "fi": "circles_and_squares"
-    },
-    "61383": {
-      "fi": "sorting_empirical_analysis"
-    },
-    "61395": {
-      "fi": "my_sort"
-    },
-    "61546": {
-      "fi": "trees"
-    },
-    "61547": {
-      "fi": "trees"
-    },
-    "61548": {
-      "fi": "trees"
-    },
-    "61533": {
-      "fi": "maxheap"
-    },
-    "61448": {
-      "fi": "trees"
-    },
-    "61523": {
-      "fi": "trees"
-    },
-    "61344": {
-      "fi": "plantshop"
-    },
-    "61345": {
-      "fi": "plantshop"
-    },
-    "61502": {
-      "fi": "toposort"
-    },
-    "61411": {
-      "fi": "primes_revised"
-    },
-    "61413": {
-      "fi": "seal"
-    },
-    "61415": {
-      "fi": "fractal"
-    },
-    "61417": {
-      "fi": "hunt"
-    },
-    "61419": {
-      "fi": "docent"
-    },
-    "61421": {
-      "fi": "legos"
-    },
-    "61426": {
-      "fi": "trees"
-    },
-    "61428": {
-      "fi": "network"
-    },
-    "63101": {
-      "fi": "union_find"
-    },
-    "63105": {
-      "fi": "kruskal"
-    }
   },
   "grading": {
     "style": "total",
@@ -268,5 +167,169 @@
         "total": 24000
       }
     }
-  }
+  },
+  "modules": [
+    {
+      "name": "add_plus",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/add_plus.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "car",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/car.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "checkparentheses",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/checkparentheses.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "circles_and_squares",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/circles_and_squares.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "countchange",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/countchange.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "docent",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/docent.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "eratosthenes",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/eratosthenes.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "fractal",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/fractal.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "hunt",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/hunt.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "legos",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/legos.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "linkedlist",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/linkedlist.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "maxheap",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/maxheap.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "my_sort",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/my_sort.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "network",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/network.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "palindrome",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/palindrome.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "plantshop",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/plantshop.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "power",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/power.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "primes_revised",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/primes_revised.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "Myqueue",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/Myqueue.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "queue_reverse",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/queue_reverse.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "reverseobjects",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/reverseobjects.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "seal",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/seal.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "sorting_empirical_analysis",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/sorting_empirical_analysis.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "stack",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/stack.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "toposort",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/toposort.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "trees",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/trees.zip",
+      "version": "1.0",
+      "changelog": ""
+    },
+    {
+      "name": "union_find",
+      "url": "https://gitmanager.cs.aalto.fi/static/default/_static/apluscourses/modules/union_find.zip",
+      "version": "1.0",
+      "changelog": ""
+    }
+  ]
 }
