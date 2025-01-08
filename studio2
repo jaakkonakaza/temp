@@ -1,0 +1,225 @@
+{
+    "id": "403",
+    "name": "Programming Studio 2/A",
+    "aPlusUrl": "https://plus.cs.aalto.fi/",
+    "languages": [
+        "fi",
+        "en"
+    ],
+    "version": "4.2",
+    "resources": {
+        "ideSettings": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/o1_2024_ij_settings.zip",
+        "ideSettingsMac": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/o1_2024_ij_mac_settings.zip",
+        "projectSettings": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/o1_2024_project_settings.zip",
+        "feedbackCss": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/feedback.css"
+    },
+    "requiredPlugins": [
+        {
+            "name": "Scala",
+            "id": "org.intellij.scala"
+        },
+        {
+            "name": "REPLace",
+            "id": "fi.aalto.cs.replace"
+        },
+        {
+            "name": "Additional Scala Inspections",
+            "id": "fi.aalto.cs.inspections"
+        }
+    ],
+    "vmOptions": {
+        "file.encoding": "UTF-8"
+    },
+    "optionalCategories": [
+        "challenge"
+    ],
+    "autoInstall": [
+        "S2Library"
+    ],
+    "alwaysShowGroups": false,
+    "modules": [
+        {
+            "name": "Expressions",
+            "url": "https://gitmanager.cs.aalto.fi/static/CS-C2120_2025Spring/modules/given/Expressions/Expressions.zip",
+            "version": "1.2",
+            "changelog": "Fixed expressiontest"
+        },
+        {
+            "name": "Matchmaker",
+            "url": "https://gitmanager.cs.aalto.fi/static/CS-C2120_2025Spring/modules/given/Matchmaker/Matchmaker.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "S2Library",
+            "url": "https://gitmanager.cs.aalto.fi/static/CS-C2120_2025Spring/modules/given/S2Library/S2Library.zip",
+            "version": "2.0",
+            "changelog": "Removed unused path"
+        },
+        {
+            "name": "GameOfLife",
+            "url": "https://gitmanager.cs.aalto.fi/static/CS-C2120_2025Spring/modules/given/GameOfLife/GameOfLife.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "Grep",
+            "url": "https://gitmanager.cs.aalto.fi/static/CS-C2120_2025Spring/modules/given/Grep/Grep.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "ExceptionalCoffee",
+            "url": "https://gitmanager.cs.aalto.fi/static/CS-C2120_2025Spring/modules/given/ExceptionalCoffee/ExceptionalCoffee.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "Chess",
+            "url": "https://gitmanager.cs.aalto.fi/static/CS-C2120_2025Spring/modules/given/Chess/Chess.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "Converter",
+            "url": "https://gitmanager.cs.aalto.fi/static/CS-C2120_2025Spring/modules/given/Converter/Converter.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "Interval",
+            "url": "https://gitmanager.cs.aalto.fi/static/CS-C2120_2025Spring/modules/given/Interval/Interval.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "Parametric",
+            "url": "https://gitmanager.cs.aalto.fi/static/CS-C2120_2025Spring/modules/given/Parametric/Parametric.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "Asteroids",
+            "url": "https://gitmanager.cs.aalto.fi/static/CS-C2120_2025Spring/modules/given/Asteroids/Asteroids.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "GraphicsExamples",
+            "url": "https://gitmanager.cs.aalto.fi/static/CS-C2120_2025Spring/modules/given/GraphicsExamples/GraphicsExamples.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "GUIThreads",
+            "url": "https://gitmanager.cs.aalto.fi/static/CS-C2120_2025Spring/modules/given/GUIThreads/GUIThreads.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "TestingWorkflow",
+            "url": "https://gitmanager.cs.aalto.fi/static/CS-C2120_2025Spring/modules/given/TestingWorkflow/TestingWorkflow.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "SwingExamples",
+            "url": "https://gitmanager.cs.aalto.fi/static/CS-C2120_2025Spring/modules/given/SwingExamples/SwingExamples.zip",
+            "version": "1.0",
+            "changelog": ""
+        }
+    ],
+    "exerciseModules": {
+        "66823": {
+            "en": "Matchmaker",
+            "fi": "Matchmaker"
+        },
+        "66825": {
+            "en": "ExceptionalCoffee",
+            "fi": "ExceptionalCoffee"
+        },
+        "66827": {
+            "en": "Grep",
+            "fi": "Grep"
+        },
+        "66828": {
+            "en": "Grep",
+            "fi": "Grep"
+        },
+        "66829": {
+            "en": "Grep",
+            "fi": "Grep"
+        },
+        "66879": {
+            "en": "TestingWorkflow",
+            "fi": "TestingWorkflow"
+        },
+        "68036": {
+            "en": "TestingWorkflow",
+            "fi": "TestingWorkflow"
+        },
+        "68028": {
+            "en": "Chess",
+            "fi": "Chess"
+        },
+        "68024": {
+            "en": "Chess",
+            "fi": "Chess"
+        },
+        "68026": {
+            "en": "Chess",
+            "fi": "Chess"
+        },
+        "66694": {
+            "en": "Chess",
+            "fi": "Chess"
+        },
+        "68031": {
+            "en": "GameOfLife",
+            "fi": "GameOfLife"
+        },
+        "68033": {
+            "en": "GameOfLife",
+            "fi": "GameOfLife"
+        },
+        "68032": {
+            "en": "GameOfLife",
+            "fi": "GameOfLife"
+        },
+        "66675": {
+            "en": "Parametric",
+            "fi": "Parametric"
+        },
+        "66677": {
+            "en": "Interval",
+            "fi": "Interval"
+        },
+        "66679": {
+            "en": "Expressions",
+            "fi": "Expressions"
+        },
+        "66680": {
+            "en": "Expressions",
+            "fi": "Expressions"
+        },
+        "66681": {
+            "en": "Expressions",
+            "fi": "Expressions"
+        },
+        "66682": {
+            "en": "Expressions",
+            "fi": "Expressions"
+        },
+        "66703": {
+            "en": "Converter",
+            "fi": "Converter"
+        },
+        "68030": {
+            "en": "Converter",
+            "fi": "Converter"
+        }
+    },
+    "hiddenElements": [
+        66751
+    ]
+}
