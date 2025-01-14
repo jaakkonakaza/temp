@@ -31,61 +31,61 @@
     "alwaysShowGroups": true,
     "modules": [
         {
-            "name": "R01 Warmup",
+            "name": "a1120-scala3-r01-warmup",
             "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r01-warmup.zip",
             "version": "1.0",
             "changelog": ""
         },
         {
-            "name": "R02 Bits",
+            "name": "a1120-scala3-r02-bits",
             "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r02-bits.zip",
             "version": "1.0",
             "changelog": ""
         },
         {
-            "name": "R03 Combinational",
+            "name": "a1120-scala3-r03-combinational",
             "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r03-combinational.zip",
             "version": "1.0",
             "changelog": ""
         },
         {
-            "name": "R04 Sequential",
+            "name": "a1120-scala3-r04-sequential",
             "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r04-sequential.zip",
             "version": "1.0",
             "changelog": ""
         },
         {
-            "name": "R05 Armlet",
+            "name": "a1120-scala3-r05-armlet",
             "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r05-armlet.zip",
             "version": "1.0",
             "changelog": ""
         },
         {
-            "name": "R06 Functions",
+            "name": "a1120-scala3-r06-functions",
             "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r06-functions.zip",
             "version": "1.0",
             "changelog": ""
         },
         {
-            "name": "R07 Efficiency",
+            "name": "a1120-scala3-r07-efficiency",
             "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r07-efficiency.zip",
             "version": "1.0",
             "changelog": ""
         },
         {
-            "name": "R08 Recursion",
+            "name": "a1120-scala3-r08-recursion",
             "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r08-recursion.zip",
             "version": "1.0",
             "changelog": ""
         },
         {
-            "name": "R09 Concurrency",
+            "name": "a1120-scala3-r09-concurrency",
             "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r09-concurrency.zip",
             "version": "1.0",
             "changelog": ""
         },
         {
-            "name": "R10 Learning",
+            "name": "a1120-scala3-r10-learning",
             "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r10-learning.zip",
             "version": "1.0",
             "changelog": ""
