@@ -1,0 +1,366 @@
+{
+    "id": "351",
+    "name": "Programming 2",
+    "aPlusUrl": "https://plus.cs.aalto.fi/",
+    "languages": [
+        "en"
+    ],
+    "version": "4.2",
+    "resources": {
+        "feedbackCss": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/feedback.css"
+    },
+    "requiredPlugins": [
+        {
+            "name": "Scala",
+            "id": "org.intellij.scala"
+        },
+        {
+            "name": "REPLace",
+            "id": "fi.aalto.cs.replace"
+        },
+        {
+            "name": "Additional Scala Inspections",
+            "id": "fi.aalto.cs.inspections"
+        }
+    ],
+    "vmOptions": {
+        "file.encoding": "UTF-8"
+    },
+    "optionalCategories": [],
+    "autoInstall": [],
+    "alwaysShowGroups": true,
+    "modules": [
+        {
+            "name": "R01 Warmup",
+            "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r01-warmup.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "R02 Bits",
+            "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r02-bits.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "R03 Combinational",
+            "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r03-combinational.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "R04 Sequential",
+            "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r04-sequential.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "R05 Armlet",
+            "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r05-armlet.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "R06 Functions",
+            "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r06-functions.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "R07 Efficiency",
+            "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r07-efficiency.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "R08 Recursion",
+            "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r08-recursion.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "R09 Concurrency",
+            "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r09-concurrency.zip",
+            "version": "1.0",
+            "changelog": ""
+        },
+        {
+            "name": "R10 Learning",
+            "url": "https://gitmanager.cs.aalto.fi/static//CS-A1120_2024Spring/scala-sbt/a1120-scala3-r10-learning.zip",
+            "version": "1.0",
+            "changelog": ""
+        }
+    ],
+    "exerciseModules": {
+        "59351": {
+            "en": "r01-warmup",
+            "fi": "r01-warmup"
+        },
+        "59352": {
+            "en": "r01-warmup",
+            "fi": "r01-warmup"
+        },
+        "59353": {
+            "en": "r01-warmup",
+            "fi": "r01-warmup"
+        },
+        "59354": {
+            "en": "r01-warmup",
+            "fi": "r01-warmup"
+        },
+        "59355": {
+            "en": "r01-warmup",
+            "fi": "r01-warmup"
+        },
+        "59378": {
+            "en": "r02-bits",
+            "fi": "r02-bits"
+        },
+        "59379": {
+            "en": "r02-bits",
+            "fi": "r02-bits"
+        },
+        "59380": {
+            "en": "r02-bits",
+            "fi": "r02-bits"
+        },
+        "59381": {
+            "en": "r02-bits",
+            "fi": "r02-bits"
+        },
+        "59382": {
+            "en": "r02-bits",
+            "fi": "r02-bits"
+        },
+        "59383": {
+            "en": "r02-bits",
+            "fi": "r02-bits"
+        },
+        "59384": {
+            "en": "r02-bits",
+            "fi": "r02-bits"
+        },
+        "59385": {
+            "en": "r02-bits",
+            "fi": "r02-bits"
+        },
+        "59372": {
+            "en": "r03-combinational",
+            "fi": "r03-combinational"
+        },
+        "59373": {
+            "en": "r03-combinational",
+            "fi": "r03-combinational"
+        },
+        "59374": {
+            "en": "r03-combinational",
+            "fi": "r03-combinational"
+        },
+        "59375": {
+            "en": "r03-combinational",
+            "fi": "r03-combinational"
+        },
+        "59376": {
+            "en": "r03-combinational",
+            "fi": "r03-combinational"
+        },
+        "59377": {
+            "en": "r03-combinational",
+            "fi": "r03-combinational"
+        },
+        "59341": {
+            "en": "r04-sequential",
+            "fi": "r04-sequential"
+        },
+        "59342": {
+            "en": "r04-sequential",
+            "fi": "r04-sequential"
+        },
+        "59343": {
+            "en": "r04-sequential",
+            "fi": "r04-sequential"
+        },
+        "59344": {
+            "en": "r04-sequential",
+            "fi": "r04-sequential"
+        },
+        "59345": {
+            "en": "r04-sequential",
+            "fi": "r04-sequential"
+        },
+        "59346": {
+            "en": "r04-sequential",
+            "fi": "r04-sequential"
+        },
+        "59356": {
+            "en": "r05-armlet",
+            "fi": "r05-armlet"
+        },
+        "59357": {
+            "en": "r05-armlet",
+            "fi": "r05-armlet"
+        },
+        "59358": {
+            "en": "r05-armlet",
+            "fi": "r05-armlet"
+        },
+        "59359": {
+            "en": "r05-armlet",
+            "fi": "r05-armlet"
+        },
+        "59360": {
+            "en": "r05-armlet",
+            "fi": "r05-armlet"
+        },
+        "59361": {
+            "en": "r05-armlet",
+            "fi": "r05-armlet"
+        },
+        "59362": {
+            "en": "r05-armlet",
+            "fi": "r05-armlet"
+        },
+        "59363": {
+            "en": "r05-armlet",
+            "fi": "r05-armlet"
+        },
+        "59364": {
+            "en": "r05-armlet",
+            "fi": "r05-armlet"
+        },
+        "59365": {
+            "en": "r05-armlet",
+            "fi": "r05-armlet"
+        },
+        "59386": {
+            "en": "r06-functions",
+            "fi": "r06-functions"
+        },
+        "59387": {
+            "en": "r06-functions",
+            "fi": "r06-functions"
+        },
+        "59388": {
+            "en": "r06-functions",
+            "fi": "r06-functions"
+        },
+        "59389": {
+            "en": "r06-functions",
+            "fi": "r06-functions"
+        },
+        "59442": {
+            "en": "r06-functions",
+            "fi": "r06-functions"
+        },
+        "59390": {
+            "en": "r06-functions",
+            "fi": "r06-functions"
+        },
+        "59391": {
+            "en": "r06-functions",
+            "fi": "r06-functions"
+        },
+        "59330": {
+            "en": "r07-efficiency",
+            "fi": "r07-efficiency"
+        },
+        "59331": {
+            "en": "r07-efficiency",
+            "fi": "r07-efficiency"
+        },
+        "59332": {
+            "en": "r07-efficiency",
+            "fi": "r07-efficiency"
+        },
+        "59333": {
+            "en": "r07-efficiency",
+            "fi": "r07-efficiency"
+        },
+        "59334": {
+            "en": "r07-efficiency",
+            "fi": "r07-efficiency"
+        },
+        "59335": {
+            "en": "r07-efficiency",
+            "fi": "r07-efficiency"
+        },
+        "59336": {
+            "en": "r07-efficiency",
+            "fi": "r07-efficiency"
+        },
+        "59366": {
+            "en": "r08-recursion",
+            "fi": "r08-recursion"
+        },
+        "59367": {
+            "en": "r08-recursion",
+            "fi": "r08-recursion"
+        },
+        "59368": {
+            "en": "r08-recursion",
+            "fi": "r08-recursion"
+        },
+        "59369": {
+            "en": "r08-recursion",
+            "fi": "r08-recursion"
+        },
+        "59370": {
+            "en": "r08-recursion",
+            "fi": "r08-recursion"
+        },
+        "59371": {
+            "en": "r08-recursion",
+            "fi": "r08-recursion"
+        },
+        "59347": {
+            "en": "r09-concurrency",
+            "fi": "r09-concurrency"
+        },
+        "59348": {
+            "en": "r09-concurrency",
+            "fi": "r09-concurrency"
+        },
+        "59349": {
+            "en": "r09-concurrency",
+            "fi": "r09-concurrency"
+        },
+        "59350": {
+            "en": "r09-concurrency",
+            "fi": "r09-concurrency"
+        },
+        "59337": {
+            "en": "r10-learning",
+            "fi": "r10-learning"
+        },
+        "59338": {
+            "en": "r10-learning",
+            "fi": "r10-learning"
+        },
+        "59339": {
+            "en": "r10-learning",
+            "fi": "r10-learning"
+        },
+        "59340": {
+            "en": "r10-learning",
+            "fi": "r10-learning"
+        }
+    },
+    "hiddenElements": [
+        58012,
+        3871,
+        57720,
+        57721,
+        57722,
+        57723,
+        57724,
+        57725,
+        57726,
+        57727,
+        57728,
+        57729,
+        57730,
+        57731,
+        57718,
+        57719
+    ]
+}
