@@ -5,7 +5,7 @@
     "languages": [
         "en"
     ],
-    "version": "4.2",
+    "version": "4.3",
     "resources": {
         "feedbackCss": "https://gitmanager.cs.aalto.fi/static/O1_2024/modules/feedback.css"
     },
@@ -13,11 +13,15 @@
         {
             "name": "Scala",
             "id": "org.intellij.scala"
+        },
+        {
+            "name": "REPLace",
+            "id": "fi.aalto.cs.replace"
         }
     ],
     "optionalCategories": [],
     "autoInstall": [],
-    "alwaysShowGroups": true,
+    "alwaysShowGroups": false,
     "modules": [
         {
             "name": "a1120-scala3-r01-warmup",
